@@ -7,5 +7,6 @@ Docker container has docker based on install instructions in https://docs.docker
 To test:
 
 ```
+sudo docker build -t docker-talks-host-docker:taratyn .
 sudo docker run -it --rm  -v /var/run/docker.sock:/var/run/docker.sock  docker-talks-host-docker:taratyn docker ps
 ```
